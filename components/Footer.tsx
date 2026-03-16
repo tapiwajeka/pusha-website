@@ -191,6 +191,19 @@ export default function Footer() {
             Built in <span className="text-[#E10600]">Zimbabwe</span> 🇿🇼
           </p>
         </Container>
+        <Container className="py-3 flex justify-center border-t border-white/5">
+          <p className="text-gray-600 text-xs">
+            Developed by{' '}
+            <a
+              href="https://www.dataage.co.zw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-[#E10600] transition-colors"
+            >
+              Data Age Solutions
+            </a>
+          </p>
+        </Container>
       </div>
     </footer>
   );
